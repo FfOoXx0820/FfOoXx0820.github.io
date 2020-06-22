@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Andrew's homepage</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <style>
+        body {
+            background-color: rgb(202, 255, 200);
+        }
+        .menuBar {
+            position: fixed;
+            bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 250px;
+            background-color: #f1f1f1;
+            border-radius: 25px;
+        }
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 30px;
+            border-radius: 25px;
+        }
+        li {
+            text-align: center;
+        }
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+        li a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .paginater {
+            position: absolute;
+            left: 750px;
+            bottom: 10px;
+            font-size: 50px;
+            font-family: fantasy;
+        }
+        div.paginater center span a{
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            width: 60px;
+            height: 60px;
+            background-color: rgb(0, 0, 0);
+        }
+        .diary {
+            position: absolute;
+            bottom: 80px;
+            left: 575px;
+            width: 600px;
+            height: 88%;
+            background-image: url('paper.jpg');
+            background-repeat: repeat;
+            font-size: 20px;
+        }
+        .logo {
+            position: fixed;
+            left: 50px;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menuBar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../events/fatherDay.html">Events</a></li>
+        <li><a href="../springBreak/springbreak.html">spring Break</a></li>
+        <li><a class="active" href="../diary/diary1.html">Diary</a></li>
+        <li><a href="../#random">Random</a></li>
+        <li><a href="../#random">Random</a></li>
+        <li><a href="../#random">Random</a></li>
+        <li><a href="../#random">Random</a></li>
+        <li><a href="../#random">Random</a></li>
+        <li><a href="../#random">Random</a></li>
+        <li><a href="../#random">Random</a></li>
+    </ul>
+    <div class="paginater">
+        <center>
+            <span><a href="../diary/diary1.html"><<</a></span>
+            <span><a href="../diary/diary2.html"><</a></span>
+            <span><a href="../diary/diary3.html">></a></span>
+            <span><a href="../diary/diary3.html">>></a></span>
+        </center>
+    </div>
+    <div class="diary">
+        <center><a>First Diary</a></center>
+        <br><a>2020/6/21</a>
+        <br><br><a>Blah Blah Blah</a>
+    </div>
+    <a href="index.html"><img class="logo" src="../logo.png" alt="CubeAW"></a>
+</body>
