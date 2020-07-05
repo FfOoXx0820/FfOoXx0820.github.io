@@ -88,15 +88,15 @@
     <div class="paginater">
         <center>
             <span><a href="../diary/diary1.html"><<</a></span>
-            <span><a href="../diary/diary1.html"><</a></span>
-            <span><a href="../diary/diary2.html">></a></span>
+            <span><a href="../diary/diary2.html"><</a></span>
+            <span><a href="../diary/diary3.html">></a></span>
             <span><a href="../diary/diary3.html">>></a></span>
         </center>
     </div>
     <div class="diary">
-        <center><a><b>First Diary</b></a></center>
-        <br><a>2020/7/02</a>
-        <br><br><a>I made a diary! I'm going to write some things that I wanted to write or remember, and I can't assure that it will be fun to read or well-writen. Also, I will also use some Korean, not only English. You need password to see this, but there are some ways to cheese this. It's hard to prevent them because I don't have somewhere to store my password.<br><br>How to cheese it?<br><br>1. press Ctrl + Shift + I and check the code in password thing.<br>2. just enter https://ffooxx0820.github.io/diary/diary1.html at url<br><br>I'm telling these because you must have entered the passwod correctly or cheesed it if you're reading this.<br><br>Actually, I wonder if anyone would able to see this or eager to see this. It's true that this is only for me, but you know, people are able to see this though.<br><br><b><i>What should I write next?</i></b></a>
+        <center><a><b>Diary</b></a></center>
+        <br><a>2020/6/21</a>
+        <br><br><a>Blah Blah Blah</a>
     </div>
     <a href="../index.html"><img class="logo" src="../logo.png" alt="CubeAW"></a>
 </body>
