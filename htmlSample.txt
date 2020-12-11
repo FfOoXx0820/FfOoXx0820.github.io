@@ -11,7 +11,7 @@
             position: fixed;
             bottom: 5px;
         }
-        ul {
+        ul.menuBar {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -19,7 +19,7 @@
             background-color: #f1f1f1;
             border-radius: 25px;
         }
-        li a {
+        ul.menuBar li a {
             display: block;
             color: #000;
             padding: 8px 16px;
@@ -28,14 +28,14 @@
             font-size: 30px;
             border-radius: 25px;
         }
-        li {
+        ul.menuBar li {
             text-align: center;
         }
-        li a:hover {
+        ul.menuBar li a:hover {
             background-color: #555;
             color: white;
         }
-        li a.active {
+        ul.menuBar li a.active {
             background-color: #4CAF50;
             color: white;
         }
@@ -48,8 +48,8 @@
 </head>
 <body>
     <ul class="menuBar">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="../events/fatherDay.html">Events</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="../events/list.html">Events</a></li>
         <li><a href="../springBreak/springbreak.html">Spring Break</a></li>
         <li><a href="../diary/diaryPassword.html">Diary</a></li>
         <li><a href="../games/games.html">Games</a></li>
